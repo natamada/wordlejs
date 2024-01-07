@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 const Tile = () => {
-  const [letter, setLetter] = useState("");
+  const [letter, setLetter] = useState("X");
   const [completed, setCompleted] = useState(true);
   const [colors, setColors] = useState({ back: "white", font: "black" });
 
