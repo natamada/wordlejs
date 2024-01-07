@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Row from './components/GameBoard/Row'
 import Grid from './components/GameBoard/Grid'
+import Keyboard from './components/KeyBoard/Keyboard'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <div className='App'>
         <Grid />
+        <Keyboard />
         </div>
     </>
   )
